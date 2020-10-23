@@ -1,7 +1,9 @@
 
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 ## Welcome to GitHub Pages
 
-a^2 + b^2 = c^2
+$a^2 + b^2 = c^2$
 
 You can use the [editor on GitHub](https://github.com/adamdrewherbst/spacetime/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
