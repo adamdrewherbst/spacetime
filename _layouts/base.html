@@ -4,6 +4,15 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>
   <body>
-    {{content}}
+    <div id="left-nav">
+      <ul>
+        {% for section in site.sections %}
+        <li><a href="{% section.url %}">{% section.title %}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div id="content-wrapper">
+      {{content}}
+    </div>
   </body>
 </html>
