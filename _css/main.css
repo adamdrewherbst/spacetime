@@ -1,1 +1,9 @@
+#left-nav {
+  float: left;
+  width: 20%;
+}
 
+#content-wrapper {
+  float: right;
+  width: 80%;
+}
